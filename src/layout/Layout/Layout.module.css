@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    height: 100%;
+    background: #FFFFFF;
+    position: fixed;
+}
+
+.layout__children {
+    padding: 39px 60px 39px 64px;
+    width: 100%;
+}
