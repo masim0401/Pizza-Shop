@@ -11,12 +11,19 @@ function Menu() {
 				<InputSearch/>
 			</header>
 			<div className={styles['items']}>
-				<ItemMenu/>
-				<ItemMenu/>
-				<ItemMenu/>
-				<ItemMenu/>
-				<ItemMenu/>
-				<ItemMenu/>
+				<ItemMenu
+					id={1}
+					title='Наслаждение'
+					description={'Салями, руккола, помидоры, оливки'}
+					rating={4.5}
+					image={'../../../public/item-menu/card-1.svg'}
+					price={300}
+				/>
+				{/*<ItemMenu/>*/}
+				{/*<ItemMenu/>*/}
+				{/*<ItemMenu/>*/}
+				{/*<ItemMenu/>*/}
+				{/*<ItemMenu/>*/}
 			</div>
 		</>
 	);
